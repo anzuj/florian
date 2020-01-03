@@ -60,7 +60,7 @@ border: 6px solid #56514e;
     color: rgba(136, 136, 136, 0.212);
     z-index: -1;
     top: 365px;
-    right: 310px;
+    right: 340px;
     font-size: 180px;
 }
 
@@ -73,15 +73,15 @@ border: 6px solid #56514e;
 }
 
 .spin {
-    -webkit-animation: spin 170s linear infinite;
-    -moz-animation: spin 170s linear infinite;
-    animation: spin 170s linear infinite;
+    -webkit-animation: spin 100s linear infinite;
+    -moz-animation: spin 100s linear infinite;
+    animation: spin 100s linear infinite;
 }
 
 .spin-back {
-    -webkit-animation: spin-back 150s linear infinite;
-    -moz-animation: spin-back 150s linear infinite;
-    animation: spin-back 150s linear infinite;
+    -webkit-animation: spin-back 120s linear infinite;
+    -moz-animation: spin-back 120s linear infinite;
+    animation: spin-back 120s linear infinite;
 }
 
 @-moz-keyframes spin {
