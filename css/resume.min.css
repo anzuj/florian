@@ -21,6 +21,15 @@ body {
     animation: spin 12s linear infinite;
 }
 
+.flag{
+    height: 20px;
+    padding-right: 3px;
+}
+
+#mobile-profile{
+width:150px;
+border: 6px solid #56514e;
+}
 
 #gear1,
 #gear2,
@@ -49,7 +58,7 @@ body {
 #gear3 {
     color: rgba(136, 136, 136, 0.212);
     z-index: -1;
-    top: 355px;
+    top: 365px;
     right: 310px;
     font-size: 180px;
 }
