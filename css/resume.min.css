@@ -59,7 +59,7 @@ body {
     z-index: -1;
     right: 50px;
     font-size: 240px;
-    top: 410px;
+    top: 450px;
 }
 
 .spin {
@@ -327,30 +327,31 @@ section.resume-section .resume-item .resume-date {
     .card {
         margin: 0 auto;
     }
-    
-     /* gears */
+
+    /* gears */
     #gear1 {
         top: 65px;
         font-size: 130px;
         right: 195px;
     }
-    
+
     #gear2 {
         right: 0px;
         font-size: 200px;
     }
-    
+
     #gear3 {
         top: 235px;
         right: 0px;
         font-size: 80px;
     }
-    
+
     #gear4 {
-        right: 74px;
-        font-size: 140px;
-        top: 245px;
+        right: 84px;
+        font-size: 100px;
+        top: 260px;
     }
+
 }
 
 @media (min-width:992px) {
