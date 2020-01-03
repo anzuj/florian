@@ -11,6 +11,7 @@ body {
     background: radial-gradient(circle, rgba(250, 250, 251, 0) 0%, rgba(252, 185, 70, 0.335) 400%);
     background-attachment: fixed;
     background-repeat: none;
+    height: 100%;
 }
 
 
