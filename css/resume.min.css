@@ -356,14 +356,14 @@ section.resume-section .resume-item .resume-date {
 
     #gear3 {
         top: 255px;
-        right: 0px;
+        right: 20px;
         font-size: 80px;
     }
 
     #gear4 {
-        right: 84px;
+        right: 250px;
         font-size: 100px;
-        top: 260px;
+        top: 210px;
     }
 
 }
