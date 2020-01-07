@@ -3,7 +3,13 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
+
+.widthContainer {
+    width: 70%;
+}
+
 body {
+    overflow-x: hidden; /* necessary to avoid vertical scrollbar with background animation */
     font-family: Muli, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     padding-top: 54px;
     color: #868e96;
@@ -21,14 +27,18 @@ body {
     animation: spin 12s linear infinite;
 }
 
-.flag{
+.flag {
     height: 20px;
     padding-right: 3px;
 }
 
-#mobile-profile{
-width:150px;
-border: 6px solid #56514e;
+#mobile-profile {
+    width: 150px;
+    border: 6px solid #56514e;
+}
+
+.gear-bg {
+    overflow: hidden;
 }
 
 #gear1,
@@ -299,9 +309,9 @@ section.resume-section {
     max-width: 75rem
 }
 
-section.resume-section .resume-item .resume-date {
+/* section.resume-section .resume-item .resume-date {
     min-width: none
-}
+} */
 
 @media (min-width:768px) {
     section.resume-section {
@@ -319,7 +329,7 @@ section.resume-section .resume-item .resume-date {
     #about {
         text-align: center;
     }
-    
+
     h1 {
         font-size: 3.5rem;
     }
@@ -368,11 +378,20 @@ section.resume-section .resume-item .resume-date {
 
 }
 
-@media (min-width:992px) {
+@media only screen and (max-width:1000px) {
+    .widthContainer {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width:992px) {
     section.resume-section {
         padding-top: 3rem !important;
         padding-bottom: 3rem !important
     }
+
+
 }
 
 /* .bg-primary {
@@ -384,7 +403,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .text-primary {
-    color: #bd5d38 !important
+    color: #bd5d38 !important;
 }
 
 a {
@@ -396,3 +415,20 @@ a:focus,
 a:hover {
     color: #824027
 }
+
+.resume-section .subheading {
+    font-size: 1.5rem;
+}
+
+.resume-section p {
+    font-size: 1.2rem;
+}
+
+#projects li {
+    font-size: 1.2rem;
+}
+
+
+/* .resume-content{
+    margin-right: 0 !important;
+} */
