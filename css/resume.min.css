@@ -467,6 +467,7 @@ a:hover {
     font-size: 26px;
     font-family: 'Font Awesome 5 Free';
     content: '\f002';
+    font-weight: 900;
     pointer-events: none;
     z-index: 9000;
     transition: 0.4s;
