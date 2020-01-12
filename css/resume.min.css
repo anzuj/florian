@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 
-
+  
 html {
     max-width: 100%;
 }
@@ -120,6 +120,7 @@ h2 {
 
 
 .subheading {
+    color: rgb(90, 86, 86);
     text-transform: uppercase;
     font-weight: 500;
     font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -224,6 +225,11 @@ section.resume-section {
 /* mobile friendly */
 @media only screen and (max-width:600px) {
 
+    .wrapped-img{
+     display: block;
+     width: 100%;
+    }
+
     body {
         padding-left: 2px;
     }
@@ -294,11 +300,31 @@ a:hover {
     font-size: 1.2rem;
 }
 
+/* project expandarrows */
+.expandDetails{
+    text-decoration: none!important;
+}
+
+.show{
+    display: inline-block;
+}
+.hidden{
+    display: none;
+}
+
+ .info-long {
+    display: none;
+    background-color: rgba(163, 120, 79, 0.075);
+    padding: 1rem 2rem;
+    margin: 1rem 0 1rem 0;
+  }
+/* project expandarrows */
+
 
 /* GALLERY*/
 
 .tz-gallery {
-    padding: 40px;
+    padding: 10px 0px 20px 0px;
 }
 
 /* Override bootstrap column paddings */
